@@ -2,6 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/", // Important for Vercel
+  base: "/", // Ensure this is set correctly for Vercel
   plugins: [react()],
 });
